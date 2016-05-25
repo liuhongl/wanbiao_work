@@ -1,0 +1,148 @@
+@charset "utf-8";
+/*header*/
+#header {
+	width:1000px;
+	height:90px;
+	margin:0 auto;
+}
+#header a img {
+	display: inline-block;
+	margin-top:30px;
+}
+#header span {
+	display: inline-block;
+	margin-left:10px;
+	margin-top:30px;
+}
+/*content*/
+.banner {
+	background: url(../img/banner.jpg) no-repeat;
+	height:481px;
+	overflow:hidden;
+}
+.form {
+	width:340px;
+	height:380px;
+	margin-left:872px;
+	margin-top:58px;
+	
+}
+.form .p1 {
+	width:280px;
+	font-size: 18px;
+	padding-left:30px ;
+	height:20px;
+	line-height:20px;
+	padding-top: 20px;
+}
+.form .span1 {
+	font-size:12px;
+	float:right;
+}
+.form .span1 a {
+	color:#f00;
+}
+.form .txt {
+	width:245px;
+	height:40px;
+	margin-left:30px;
+	padding-left:35px;
+	color:#a9a9a9;
+	margin-top: 10px;
+	background:url(../img/userName.jpg) no-repeat 12px center;
+	border:1px solid #CCC;
+	
+}
+.form .paw {
+	width:245px;
+	height:40px;
+	padding-left:15px;
+	color:#a9a9a9;
+	margin-top:20px;
+	padding-left:35px;
+	margin-left:30px;
+	background: url(../img/paw.jpg) no-repeat 12px center;
+	border:1px solid #CCC;
+}
+.form .p2 {
+	width:280px;
+	margin-top:15px;
+	margin-left:30px;
+}
+.form .p2 span {
+	float: right;
+}
+.form .p2 a {
+	color:#000;	
+}
+.form .btn {
+	width:280px;
+	height:40px;
+	color:#FFF;
+	background: #ce0000;
+	border-radius: 5px;
+	margin-left:30px;
+	margin-top:16px;
+	font-size:18px;
+}	
+.form .p3 {
+	padding-left:30px;
+	margin-top:50px;
+}	
+.form .p4 {
+	padding-left:30px;
+	margin-top:15px;
+}
+.form .p4 a {
+	color:#00F;
+	display: inline-block;
+	height:20px;
+	line-height: 20px;
+	padding-right:10px;
+	background: url(../img/xbj.jpg) no-repeat right center;
+}	
+/*footer*/
+#footer {
+	width:1000px;
+	height:170px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#footer .footer_L{
+	float: left;
+	width:585px;
+	height:170px;
+}
+#footer ul li {
+	margin-top:30px;
+	float:left;
+	padding:0px 10px;
+	background: url(../img/xbj2.jpg) no-repeat right center;
+}
+#footer ul li a:hover {
+	color:#FF4D4D;
+}
+#footer ul li a {
+	color:#000;
+}
+#footer .p1 {
+	padding-left:10px;
+	padding-top:10px;
+	color:#999999;
+	
+	clear:both;
+}
+#footer .p2{
+	margin-top:10px;
+	padding-left:10px;
+}
+#footer .footer_R{
+	width:200px;
+	height:170px;
+	float:right;
+	
+}
+#footer .footer_R img{
+	
+	padding:40px 10px;
+}
